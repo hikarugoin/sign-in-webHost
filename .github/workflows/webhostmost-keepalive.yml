@@ -3,7 +3,7 @@ name: Run webhostmost keepalive Script
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 1,5,10,15 * *"  # 
+    - cron: "0 0 1,5,10,15 * *"  # 每月1.5.10.15自动运行一次
   push:
     branches:
       - main
